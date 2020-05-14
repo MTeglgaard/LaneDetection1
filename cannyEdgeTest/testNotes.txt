@@ -1,0 +1,8 @@
+this approage is just trying to use the canny Edge detector to detect the lines edge of the track. 
+
+the function is called with 
+Canny( detected_edges, detected_edges, lowThreshold, lowThreshold*ratio, kernel_size )
+ratio = 3;
+kernel_size = 3;
+createTrackbar( "Min Threshold:", window_name, &lowThreshold, max_lowThreshold, CannyThreshold );
+images are svaed with difrent values
